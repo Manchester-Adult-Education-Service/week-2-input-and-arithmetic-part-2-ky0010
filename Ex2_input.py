@@ -41,7 +41,12 @@ print("-------------------------------------------\n"
 # 3. Print: "Hello [name]! You said you are [age_text] years old."
 
 # Write your code below:
-
+#I want to ask the user what is their name
+name = input("What is our name?")
+print(f"Hello {name}")
+#i want to ask the user how old are they
+age_text = input("how old are you?")
+print(f"hello {name}! You said you are {age_text} years old.")
 
 # -------------------------------------------
 # Task 2: Data Types and Conversion
@@ -66,6 +71,10 @@ print("\n-------------------------------------------\n"
 #    Hint: Use {age + 1} inside your f-string.
 
 # Write your code below:
+#i want to ask the user how old are they
+age_text = input("how old are you?")
+print(f"you said you are {age_text} years old.")
+print(f"In 5 years, 25 years old")
 
 
 # -------------------------------------------
@@ -89,7 +98,12 @@ print("\n-------------------------------------------\n"
 # 3. Use .capitalize() on the food and song variables.
 
 # Write your code below:
-
+#i want to ask the user what is their favour food
+food = input("what is your favour food?")
+print(f"{food}was tasty, very good")
+#i want to ask the user what is their favour song
+song = input("what is your favour song?")
+print(f"{song}is the best song that i heard ever.")
 
 # -------------------------------------------
 # CHECKPOINT: GIT COMMIT
